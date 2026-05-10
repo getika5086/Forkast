@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment — NEVER commit real keys
+.env.local
+.env*.local
+
+# Debug logs (dev only, can contain restaurant data)
+decode-debug.log
+*.log
+
+# TypeScript build cache
+tsconfig.tsbuildinfo
+
+# Claude Code session data
+.claude/
+
+# macOS
+.DS_Store
+
+# Vercel
+.vercel
