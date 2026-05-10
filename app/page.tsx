@@ -33,8 +33,7 @@ export default function HomePage() {
         return;
       }
 
-      // Only charge against the limit for fresh decodes — cache hits are free
-      if (!data.fromCache) increment();
+      increment();
 
       router.push(`/decode/${data.decodeId}${data.fromCache ? "?cached=1" : ""}`);
     } catch {
