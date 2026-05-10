@@ -107,9 +107,9 @@ function SearchLimitReached() {
   return (
     <div className="text-center space-y-3 py-4">
       <p className="text-3xl">🍽️</p>
-      <p className="font-semibold text-gray-900">You've reached today's search limit</p>
+      <p className="font-semibold text-gray-900">You&apos;ve reached today&apos;s search limit</p>
       <p className="text-sm text-gray-500 max-w-xs mx-auto">
-        Forkast is in beta and we're rate-limiting searches while we scale up. You've used all 5 searches for today — come back tomorrow for 5 more.
+        Forkast is in beta and we&apos;re rate-limiting searches while we scale up. You&apos;ve used all 5 searches for today — come back tomorrow for 5 more.
       </p>
       <p className="text-xs text-gray-400">
         Previously decoded restaurants are still accessible via their links.
